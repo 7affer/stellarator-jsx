@@ -1,0 +1,19 @@
+.Notification {
+  padding: 1rem;
+  border: 1px solid gainsboro;
+}
+
+.Notification--type-success {
+  border-color: mediumseagreen;
+  background-color: palegreen;
+}
+
+.Notification--type-danger {
+  border-color: firebrick;
+  background-color: lightcoral;
+}
+
+.Notification--type-info {
+  border-color: dodgerblue;
+  background-color: azure;
+}

@@ -1,0 +1,17 @@
+html {
+  font-size: 16px;
+}
+
+html, textarea {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.cell {
+  padding: 1rem;
+}

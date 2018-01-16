@@ -1,0 +1,23 @@
+.Input {
+  border: 1px solid gainsboro;
+  background: #fff;
+  padding: 0.3rem;
+  font-size: 1rem;
+}
+
+.Input--size-small {
+  font-size: 0.8rem;
+}
+
+.Input--size-medium {
+  font-size: 1rem;
+}
+
+.Input--size-large {
+  font-size: 1.2rem;
+}
+
+.Input--error {
+  border-color: firebrick;
+  background-color: rgba(200, 50, 50, 0.2);
+}

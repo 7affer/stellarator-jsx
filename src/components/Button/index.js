@@ -5,9 +5,9 @@ import './styles.css';
 function Button({ children, type, disabled, loading, onButtonClick }) {
 	return (
 		<button
-			className={`btn btn-${type}`}
+			className={`Button Button-${type}`}
 			disabled={disabled || loading}
-			onClick={onButtonClick}
+			onClick={() => !disabled && onButtonClick()}
 		>
 			{loading ? 'Loading...' : children}
 		</button>
@@ -15,7 +15,7 @@ function Button({ children, type, disabled, loading, onButtonClick }) {
 }
 
 Button.propTypes = {
-	type: PropTypes.string,
+	type: PropTypes.oneOf(['primary','secondary','disabled']),
 	disabled: PropTypes.bool,
 	loading: PropTypes.bool,
 	onButtonClick: PropTypes.func

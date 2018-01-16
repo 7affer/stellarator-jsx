@@ -1,0 +1,25 @@
+.Text, .Text--size-medium {
+  color: #555;
+  font-size: 1rem;
+}
+
+.Text--size-small {
+  font-size: 0.8rem;
+}
+
+.Text--size-large {
+  font-size: 1.5rem;
+}
+
+h1.Text, h1.Text--size-medium {
+  color: #000;
+  font-size: 1.5rem;
+}
+
+h1.Text--size-small {
+  font-size: 1rem;
+}
+
+h1.Text--size-large {
+  font-size: 2rem;
+}

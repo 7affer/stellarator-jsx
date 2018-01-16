@@ -1,0 +1,27 @@
+.Form {
+  border: 1px solid gainsboro;
+  display: flex;
+  flex-direction: column;
+}
+
+.Form-row {
+  padding: 0rem 1rem 1rem;
+}
+
+.Form-row:first-child {
+  padding: 1rem;
+}
+
+.Form-footer {
+  text-align: right;
+  background: gainsboro;
+  padding: 1rem;
+}
+
+.Form-submit {
+  background: dodgerblue;
+  color: white;
+  padding: 5px 20px;
+  font-size: 16px;
+  border: 0;
+}
