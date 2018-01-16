@@ -6,6 +6,7 @@ import Notification from './components/Notification';
 import Form from './components/Form';
 import Input from './components/Input';
 import LoginForm from './components/LoginForm';
+import formConfig from './config/form'
 
 class App extends Component {
 
@@ -30,12 +31,6 @@ class App extends Component {
 	}
 
 	render() {
-		const formConfig = [
-			{ type: 'text', name: "name", placeholder: 'Name' },
-			{ type: 'text', name: "surname", placeholder: 'Surname' },
-			{ type: 'email', name: "email", placeholder: 'Email' },
-		];
-
 		return (
 			<div>
 				<div className="row">
