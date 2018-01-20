@@ -11,8 +11,8 @@ function onSubmit(event) {
 function Form({ config }) {
   return (
     <form className="Form" onSubmit={onSubmit}>
-      {config.map((item, key) => (
-        <div key={key} className="Form-row">
+      {config.map(item => (
+        <div key={item.name} className="Form-row">
           <Input {...item} />
         </div>
       ))}
